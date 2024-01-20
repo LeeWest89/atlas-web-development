@@ -1,29 +1,23 @@
 body {
     margin: 0;
-    padding: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .background_image {
-    position: relative;
-}
-
-.background_image::before{
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: radial-gradient(85.9% 85.9% at 50% 14.1%, rgba(41, 48, 61, 0.00) 0%, #071629 100%), url('images/laughing.jpg');
-    background-size: cover;
+    background-image: url("images/laughing_grey.png");
+    width: 1448.15px;
+    height: 1055px;
+    flex-shrink: 0;
+    background-position: center;
     background-repeat: no-repeat;
-    background-blend-mode: normal, color;
-    filter: grayscale(100%);
-    z-index: -1;
+    padding: 50px;
+    color: white;
 }
 
 .header,
 .banner{
     position: relative;
-    z-index: 1;
 }
 
 header div {
@@ -31,25 +25,51 @@ header div {
     color: #FFFFFF;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 50px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 5px;
+}
+
+header .logo {
+    padding-left: 140px;
+    width: 167.016px;
+    height: 29.461px;
+    flex-shrink: 0;
 }
 
 header div a {
     display: flex;
-    padding: 10px 35px;
     color: white;
     margin-right: 10px;
+    word-spacing: 52px;
     text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
     color: #FFFFFF;
     font-family: Source Sans Pro;
+}
 
+header .course {
+    padding-right: 52px;
+    margin-right: 0px;
+}
+
+header .login {
+    padding-left: 52px;
+    padding-right: 50px;
+    margin: 0px;
+}
+
+header .price {
+    margin: 0px;
 }
 
 .banner {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
     font-family: Source Sans Pro;
 }
 
@@ -62,7 +82,7 @@ header div a {
     font-weight: 700;
     line-height: normal;
     margin-bottom: 0px;
-    margin-top: 180px;
+    margin-top: 155.52px;
 }
 
 .banner .words {
@@ -73,9 +93,13 @@ header div a {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    word-spacing: 40px;
-    margin-top: 0px;
-    margin-bottom: 25px;
+    margin-top: -10px;
+    margin-bottom: 19px;
+}
+
+.banner .grin {
+    padding-left: 57px;
+    padding-right: 59px;
 }
 
 .banner .button1 {
@@ -83,7 +107,7 @@ header div a {
     background: #C271FF;
     color: #FFFFFF;
     padding: 12px 20px;
-    margin-top: 20px;
+    margin-top: 19px;
     border: 0;
     border-radius: 50px;
     text-align: center;
@@ -92,25 +116,28 @@ header div a {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.50);
 }
 
 .banner .button_box {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
 }
 
 .banner h2 {
     color: #FFFFFF;
-    text-align: center;
+    /* text-align: center; */
     font-family: "Source Sans Pro";
     font-size: 32px;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
-    margin-top: 200px;
-    margin-bottom: 26px;
+    margin-top: 168px;
+    margin-bottom: 87px;
+    width: 261px;
+    padding-left: 575px;
+    padding-right: 604px;
 }
 
 #learn {
@@ -124,14 +151,123 @@ header div a {
 
 .professionials {
     display: flex;
-    justify-content: space-around;
     margin-top: 125px;
+    margin-left: 214px;
+    margin-right: 217px;
     padding-bottom: 150px;
-    gap: 100px;
     margin-top: 10px;
 }
 
-.banner_person {
+.professionials img {
+    border-radius: 50%;
+}
+
+.banner_person1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+    flex-flow: column;
+    padding-right: 139px;
+}
+
+.banner_person1 h3 {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 27px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+.banner_person1 p {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 0px;
+    margin-bottom: 98px;
+}
+
+.banner_person2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+    flex-flow: column;
+    padding-right: 131px;
+}
+
+.banner_person2 h3 {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 27px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+.banner_person2 p {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 0px;
+    margin-bottom: 98px;
+}
+
+.banner_person3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+    flex-flow: column;
+    padding-right: 139px;
+}
+
+.banner_person3 h3 {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 27px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+.banner_person3 p {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 0px;
+    margin-bottom: 98px;
+}
+
+.banner_person4 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -141,7 +277,7 @@ header div a {
     flex-flow: column;
 }
 
-.banner_person h3 {
+.banner_person4 h3 {
     color: #FFFFFF;
     text-align: center;
     font-family: Source Sans Pro;
@@ -149,9 +285,11 @@ header div a {
     font-style: normal;
     font-weight: 900;
     line-height: 27px;
+    margin-top: 10px;
+    margin-bottom: 2px;
 }
 
-.banner_person p {
+.banner_person4 p {
     color: #FFFFFF;
     text-align: center;
     font-family: Source Sans Pro;
@@ -159,9 +297,6 @@ header div a {
     font-style: italic;
     font-weight: 400;
     line-height: 24px;
-    margin-top: -10px;
-}
-
-.banner_person img {
-    border-radius: 50%;
+    margin-top: 0px;
+    margin-bottom: 98px;
 }
