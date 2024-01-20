@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .background_image {
     position: relative;
 }
@@ -9,22 +14,154 @@
     height: 100%;
     background: radial-gradient(85.9% 85.9% at 50% 14.1%, rgba(41, 48, 61, 0.00) 0%, #071629 100%), url('images/laughing.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
     background-blend-mode: normal, color;
     filter: grayscale(100%);
-    z-index: 0;
+    z-index: -1;
 }
 
-.background_image img,
-.background_image button,
-.background_image h1,
-.background_image h3,
-.background_image p,
-.background_image a {
+.header,
+.banner{
     position: relative;
     z-index: 1;
 }
 
-body {
-    margin: 0;
-    padding: 0;
+header div {
+    display: flex;
+    color: #FFFFFF;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+header div a {
+    display: flex;
+    padding: 10px 35px;
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Source Sans Pro;
+
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Source Sans Pro;
+}
+
+.banner h1 {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: "Source Sans Pro";
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0px;
+    margin-top: 180px;
+}
+
+.banner .words {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: "Source Sans Pro";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    word-spacing: 40px;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+.banner .button1 {
+    border-radius: 22px;
+    background: #C271FF;
+    color: #FFFFFF;
+    padding: 12px 20px;
+    margin-top: 20px;
+    border: 0;
+    border-radius: 50px;
+    text-align: center;
+    font-family: "Source Sans Pro";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.banner .button_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.banner h2 {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: "Source Sans Pro";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 200px;
+    margin-bottom: 26px;
+}
+
+#learn {
+    color: #C271FF;
+    font-family: "Source Sans Pro";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.professionials {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 125px;
+    padding-bottom: 150px;
+    gap: 100px;
+    margin-top: 10px;
+}
+
+.banner_person {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+    flex-flow: column;
+}
+
+.banner_person h3 {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 27px;
+}
+
+.banner_person p {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: -10px;
+}
+
+.banner_person img {
+    border-radius: 50%;
 }
