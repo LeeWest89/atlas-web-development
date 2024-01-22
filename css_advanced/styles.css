@@ -4,14 +4,16 @@ body {
     height: 100%;
 }
 
+/* Header and Banner */
 .background_image {
     background-image: url("images/laughing_grey.png");
-    width: 1448.15px;
-    height: 1055px;
+    width: 1440px;
+    height: 1093px;
     flex-shrink: 0;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
     color: white;
 }
 
@@ -299,4 +301,71 @@ header .price {
     line-height: 24px;
     margin-top: 0px;
     margin-bottom: 98px;
+}
+
+/* Quote */
+
+.quote_section {
+    background: url('images/quote_background.svg');    width: 1440px;
+    width: 1440px;
+    height: 392px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.quote {
+    width: 943px;
+    height: 160px;
+    padding-top: 108px;
+    padding-left: 237px;
+    padding-bottom: 124px;
+    padding-right: 260px;
+    display: flex;
+    align-items: center;
+}
+
+.quote_block {
+    width: 730px;
+    height: 158px;
+    padding-top: 2px;
+    padding-left: 53px;
+}
+
+blockquote {
+    color: #FFF;
+    font-family: "Source Sans Pro";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33.6px;
+    margin-bottom: 22px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.quote_block cite {
+    color: #FFF;
+    font-family: "Source Sans Pro";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33.6px;
+    margin: 0px;
+}
+
+.quote_block p {
+    color: #FFF;
+    font-family: "Source Sans Pro";
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 33.6px;
+    margin: 0px;
 }
