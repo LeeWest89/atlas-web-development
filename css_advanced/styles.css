@@ -369,3 +369,14 @@ blockquote {
     line-height: 33.6px;
     margin: 0px;
 }
+
+.quote img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+    flex-flow: column;
+    border-radius: 50%;
+}
