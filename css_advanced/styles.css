@@ -392,8 +392,6 @@ blockquote {
     justify-content: space-between;
     margin-left: 50px;
     margin-right: 50px;
-    background-color: blue;
-
 }
 
 .video_box {
@@ -401,7 +399,6 @@ blockquote {
     height: 450px;
     flex-shrink: 0;
     padding: 87px 106px;
-    /* background-color: red; */
 }
 
 .video_box h1 {
@@ -449,6 +446,8 @@ blockquote {
 }
 
 .video_container h3 {
+    width: 86px;
+    height: 27px;
     color: #C271FF;
     font-family: "Source Sans Pro";
     font-size: 14px;
@@ -456,6 +455,9 @@ blockquote {
     font-weight: 600;
     line-height: 27px;
     margin: 0px;
+    padding-left: 13px;
+    padding-top: 2px;
+    padding-bottom: 1px;
 }
 
 .video_container p {
@@ -481,7 +483,6 @@ blockquote {
     flex-shrink: 0;
     border-radius: 5px;
     background: #FFF;
-    box-shadow: 0px 2px 4px 0px rgba(7, 22, 41, 0.18);
 }
 
 .tutorial_box1{
@@ -526,21 +527,21 @@ blockquote {
     width: 129px;
     height: 30px;
     display: flex;
-    justify-content: space-between;
-    padding-right: 13px;
-    padding-bottom: 6px;
+    padding-bottom: 14px;
     padding-left: 13px;
     margin: 0px;
 }
 
-/* .star_line {
+.star_line {
+    display: flex;
+    align-items: center;
     width: 220px;
     height: 27px;
-} */
-
-/* .star_line img {} */
+}
 
 .star_line p {
+    width: 34px;
+    height: 27px;
     color: #C271FF;
     text-align: right;
     font-family: "Source Sans Pro";
@@ -548,4 +549,174 @@ blockquote {
     font-style: normal;
     font-weight: 600;
     line-height: 27px;
+    padding-left: 79px;
+    margin-top: -8px;
 }
+
+.star_box {
+    position: relative;
+    width: 107px;
+    height: 15px;
+    margin: 0px;
+    left: 13px;
+    padding-bottom: 15px;
+}
+
+.star_box img {
+    position: absolute;
+}
+
+/* Membership */
+
+.membership_section {
+    background: url('images/membeship.svg');    width: 1440px;
+    width: 1440px;
+    height: 502px;
+    flex-shrink: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.mem_container {
+    display: flex;
+}
+
+.mem_block1 {
+    width: 257px;
+    height: 153px;
+    flex-shrink: 0;
+    align-items: center;
+    padding-right: 27px;
+    padding-bottom: 85px;
+    padding-left: 164px;
+}
+
+.mem_block2 {
+    width: 257px;
+    height: 153px;
+    flex-shrink: 0;
+    align-items: center;
+    padding-right: 28px;
+    padding-bottom: 85px;
+}
+
+.mem_block3 {
+    width: 257px;
+    height: 153px;
+    flex-shrink: 0;
+    align-items: center;
+    padding-right: 29px;
+    padding-bottom: 85px;
+}
+
+.mem_block4 {
+    width: 257px;
+    height: 153px;
+    flex-shrink: 0;
+    align-items: center;
+    padding-right: 164px;
+    padding-bottom: 85px;
+    padding-left: 27px;
+}
+
+.membership_section h1 {
+    width: 234px;
+    height: 40px;
+    color: #C271FF;
+    text-align: center;
+    font-family: "Source Sans Pro";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 70px;
+    padding-bottom: 58px;
+    padding-left: 617px;
+    padding-right: 589px;
+    margin: 0px;
+}
+
+.membership_section h2 {
+    width: 256px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Source Sans Pro";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    padding-right: 0.5px;
+    padding-bottom: 13px;
+    padding-right: 0.5px;
+    margin: 0px;
+}
+
+.membership_section p {
+    width: 212px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Source Sans Pro";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0px;
+}
+
+#mem {
+    color: #FFF;
+    font-family: "Source Sans Pro";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.mem_container img {
+    padding-top: 0.03px;
+    padding-right: 106.62px;
+    padding-bottom: 26.62px;
+    padding-left: 106.71px;
+}
+
+.mem_block1 p {
+    padding-right: 22.5px;
+    padding-left: 22.5px;
+}
+
+.mem_block2 p {
+    padding-right: 18px;
+    padding-left: 18px;
+}
+
+.mem_block3 p {
+    padding-right: 21px;
+    padding-left: 21px;
+}
+
+.mem_block4 p {
+    padding-right: 21px;
+    padding-left: 21px;
+}
+
+.membership_section button {
+    width: 162px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 22px;
+    background: #C271FF;
+    color: #FFF;
+    text-align: center;
+    font-family: "Source Sans Pro";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-right: 639px;
+    margin-bottom: 52px;
+    margin-left: 639px;
+}
+
+/* F.A.Q */
