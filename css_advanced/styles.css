@@ -85,6 +85,7 @@ header .price {
     line-height: normal;
     margin-bottom: 0px;
     margin-top: 155.52px;
+    padding-top: 20px;
 }
 
 .banner .words {
@@ -138,8 +139,8 @@ header .price {
     margin-top: 168px;
     margin-bottom: 87px;
     width: 261px;
-    padding-left: 575px;
-    padding-right: 604px;
+    padding-left: 605px;
+    padding-right: 574px;
 }
 
 #learn {
