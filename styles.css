@@ -141,7 +141,7 @@ header .price {
     /* width: 45rem; */
     height: 2.5rem;
     padding-left: 37.8125rem;
-    padding-right: 35.875rem;
+    /* padding-right: 35.875rem; */
 }
 
 #learn {
@@ -414,8 +414,8 @@ blockquote {
     font-weight: 300;
     line-height: normal;
     padding-bottom: 4.6875rem;
-    padding-left: 28.25rem;
-    padding-right: 30.125rem;
+    /* padding-left: 28.25rem;
+    padding-right: 30.125rem; */
     margin: 0rem;
 }
 
