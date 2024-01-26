@@ -18,27 +18,45 @@ Before starting the implementation of the Style:
 Based on the Figma file, add the correct styling to the header and first section of the page
 ![Header and Banner](images/header_and_banner.jpg)
 
+Here are my results
+![My Header and Banner](images/myheader_banner.png)
+
 #### 3. Quotes
 Based on the Figma file, add the correct styling to the quote section
 ![Quote Section](images/quote_section.jpg)
+
+Here are my results
+![My Quote Section](images/myquote.png)
 
 
 #### 4. Videos list
 Based on the Figma file, add the correct styling to the videos list section
 ![Video Section](images/video_section.jpg)
 
+Here are my results
+![My Video Section](images/myvideo.png)
+
 #### 5. Membership
 Based on the Figma file, add the correct styling to the membership section
 ![Membership Section](images/mem_section.jpg)
+
+Here are my results
+![My Membership Section](images/mymembership.png)
 
 
 #### 6. FAQ
 Based on the Figma file, add the correct styling to the FAQ section
 ![F.A.Q Section](images/faq_section.jpg)
 
+Here are my results
+![My F.A.Q Section](images/myfaq.png)
+
 #### 7. Footer
 Based on the Figma file, add the correct styling to the footer
 ![Footer Section](images/footer_section.jpg)
+
+Here are my results
+![My Footer Section](images/myfooter.png)
 
 
 #### 8. Make it live!
